@@ -1,0 +1,39 @@
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 20px;
+  background: transparent;
+  border: #ff7200 1px solid;
+  margin-top: 13px;
+  color: black;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-family: sans-serif;
+}
+.btn{
+  width: 100px;
+  height: 42px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  font-size: 15px;
+  color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-left: -12px;
+}
+.btn:focus{
+  outline: none;
+}
+.srch:focus{
+  outline: none;
+}
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 460px;
+}
