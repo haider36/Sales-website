@@ -127,7 +127,20 @@ var product =[
                   price:"$80",
                   button: "add to cart",
                },
-          
+            {
+               id: 17,
+               images:"images/imported.jpeg" ,
+               title:"Mpow X4.0- Wireless",
+               price:"$60",
+               button:"add to cart",
+            },
+            {
+               id: 17,
+               images:"images/ipm.webp" ,
+               title:"Mpow X4.0- Wireless",
+               price:"$58",
+               button:"add to cart",
+            },
 ]
 
 var categories = [...new Set (product.map((item)=>
@@ -138,12 +151,12 @@ var categories = [...new Set (product.map((item)=>
   {
     var {images, title,price,button}= item;
     return`<div class="box">
-    <div class="box-image">
+    <div class="box-image ">
     <img src=${images}></iamge>
      </div> 
      <div class="left"
-     <p>${title}</p>
-     <h2>${price}</h2>
+     <h1>${title}</h1>
+     <p>${price}</p>
      <button class="cart1">${button}</button>
       </div>
      </div>`
